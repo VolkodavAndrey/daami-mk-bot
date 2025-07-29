@@ -1,3 +1,3 @@
-TOKEN = "YOUR_BOT_TOKEN"
-ADMIN_ID = "YOUR_ADMIN_ID"
-SPREADSHEET_NAME = "DAAMI_MK_Записи"
+TOKEN = os.environ.get("TOKEN")
+ADMIN_ID = os.environ.get("ADMIN_ID")
+SPREADSHEET_NAME = os.environ.get("DAAMI_MK_Записи")
